@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = "Build LLM-backed Ruby applications with Ruby's Langchain.rb"
   spec.homepage = "https://rubygems.org/gems/langchainrb"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.1.0"
+  spec.required_ruby_version = ">= 2.7.8"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/patterns-ai-core/langchainrb"
@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   # dependencies
   # Not sure if we should require this as it only applies to OpenAI usecase.
   spec.add_dependency "baran", "~> 0.1.9"
-  spec.add_dependency "json-schema", "~> 4"
+  spec.add_dependency "json-schema", "~> 2.8"
   spec.add_dependency "zeitwerk", "~> 2.5"
   spec.add_dependency "pragmatic_segmenter", "~> 0.3.0"
   spec.add_dependency "matrix"
